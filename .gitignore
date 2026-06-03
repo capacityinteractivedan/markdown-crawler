@@ -1,0 +1,13 @@
+# Output
+website-export/
+
+# URL input files
+*.txt
+!requirements.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
