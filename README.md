@@ -114,6 +114,16 @@ canonical_url: "https://example.com/about"
 }
 ```
 
+## Converting to Word (.docx)
+
+If you need a Word document from a captured Markdown file, [Pandoc](https://pandoc.org/) handles this in one command:
+
+```bash
+pandoc ~/Documents/client-report.md -o ~/Documents/client-report.docx
+```
+
+Install Pandoc via `brew install pandoc` on macOS or from [pandoc.org/installing](https://pandoc.org/installing.html).
+
 ## Notes
 
 - Pages are loaded via Playwright (headless Chromium) so JavaScript-rendered content is captured.
